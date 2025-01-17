@@ -14,10 +14,12 @@ Poetry is a tool for dependency management and packaging in Python. It allows yo
 
 ```
 
+In order for vscode to see the types and installed deps, to set the virtual enviroment to be placed within the project.
+
 ```bash
     # enable env to be inside of the project
     poetry config virtualenvs.in-project true
-    
+    echo 'poetry config virtualenvs.in-project true' >> ~/.bashrc
 ```
 
 
