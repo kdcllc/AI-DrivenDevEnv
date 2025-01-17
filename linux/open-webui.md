@@ -1,7 +1,6 @@
-# `stable-diffusion-webui`
+# `open-webui` and `stable-diffusion-webui`for local gpt
 
-https://github.com/open-webui/open-webui
-
+[open-webui](https://github.com/open-webui/open-webui)
 
 [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 [Install on Linux](https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon#linux)

@@ -90,16 +90,14 @@ docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=
 
 ```bash
     pipx install 'gptme[browser]'
-# We need to use the same version of Playwright as the one installed by gptme
-# when downloading the browser binaries. gptme will attempt this automatically
-PW_VERSION=$(pipx runpip gptme show playwright | grep Version | cut -d' ' -f2)
-pipx run playwright==$PW_VERSION install chromium-headless-shell
-
-# On Ubuntu
-sudo apt install lynx
-
-
-pipx install gptme-rag
-
-
+    # We need to use the same version of Playwright as the one installed by gptme
+    # when downloading the browser binaries. gptme will attempt this automatically
+    PW_VERSION=$(pipx runpip gptme show playwright | grep Version | cut -d' ' -f2)
+    pipx run playwright==$PW_VERSION install chromium-headless-shell
+    
+    # On Ubuntu
+    sudo apt install lynx
+    
+    
+    pipx install gptme-rag
 ```
