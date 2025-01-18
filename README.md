@@ -1,5 +1,4 @@
-#
-
+# AI driven development environment
 
 ## Models
 

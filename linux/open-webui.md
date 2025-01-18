@@ -32,3 +32,30 @@ CUDA
     # to kill memory leaks
     sudo kill -9 <process_id>
 ```
+
+I had issuew with Ollama not being able to communicate with Nvidia 
+
+[CUDA must be restarted after PC went into suspense](https://discuss.pytorch.org/t/userwarning-cuda-initialization-cuda-unknown-error-this-may-be-due-to-an-incorrectly-set-up-environment-e-g-changing-env-variable-cuda-visible-devices-after-program-start-setting-the-available-devices-to-be-zero/129335/3)
+You could try to execute:
+
+```bash
+    sudo rmmod nvidia_uvm
+    sudo modprobe nvidia_uvm
+```
+
+which helps on my Ubuntu system after it was suspended.
+
+```bash
+qwen2.5-coder:32b  
+nomic-embed-text:latest
+mxbai-embed-large:latest
+qwen2.5-coder:latest
+llama3.1:latest
+qwen2.5-coder:14b
+qwen2.5-coder:3b
+qwen2.5-coder:1.5b
+qwen2.5-coder:0.5b
+llama3.2:latest
+llama3.2-vision:latest
+
+```
