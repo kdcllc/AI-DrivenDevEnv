@@ -28,7 +28,20 @@ How to manage different version of python on the same machine.
 4. Install build dependence
 
  ```bash
-      sudo apt update && ssudo apt install build-essential libssl-dev zlib1g-dev \
+      sudo apt update && sudo apt install build-essential libssl-dev zlib1g-dev \
         libbz2-dev libreadline-dev libsqlite3-dev curl git \
         libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+```
+
+Some usages
+
+```bash
+    # install
+    pyenv install 3.11:latest
+    
+    # display versions
+    pyenv versions
+
+    # global version
+    pyenv global 3.11.11
 ```
