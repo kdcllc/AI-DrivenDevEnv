@@ -4,6 +4,7 @@
 
 # List of models to be pulled
 models=(
+  "deepseek-coder-v2"
   "qwen2.5-coder:32b"
   "nomic-embed-text:latest"
   "mxbai-embed-large:latest"

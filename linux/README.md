@@ -86,7 +86,7 @@ docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=
 
 ```
 
-- [text](https://github.com/ErikBjare/gptme)
+- [`gptme` llm local agent](https://github.com/ErikBjare/gptme)
 
 ```bash
     pipx install 'gptme[browser]'
