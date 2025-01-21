@@ -2,6 +2,8 @@
 
 # chmod +x pull_models.sh
 
+# qwen2:72b
+
 # List of models to be pulled
 models=(
   "deepseek-coder-v2"
