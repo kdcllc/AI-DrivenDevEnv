@@ -33,7 +33,7 @@ CUDA
     sudo kill -9 <process_id>
 ```
 
-I had issuew with Ollama not being able to communicate with Nvidia 
+I had issuew with Ollama not being able to communicate with Nvidia
 
 [CUDA must be restarted after PC went into suspense](https://discuss.pytorch.org/t/userwarning-cuda-initialization-cuda-unknown-error-this-may-be-due-to-an-incorrectly-set-up-environment-e-g-changing-env-variable-cuda-visible-devices-after-program-start-setting-the-available-devices-to-be-zero/129335/3)
 You could try to execute:
@@ -45,20 +45,18 @@ You could try to execute:
 
 which helps on my Ubuntu system after it was suspended.
 
-```bash
-qwen2.5-coder:32b  
-nomic-embed-text:latest
-mxbai-embed-large:latest
-qwen2.5-coder:latest
-llama3.1:latest
-qwen2.5-coder:14b
-qwen2.5-coder:3b
-qwen2.5-coder:1.5b
-qwen2.5-coder:0.5b
-llama3.2:latest
-llama3.2-vision:latest
-
-```
+* [deepseek-coder-v2](https://ollama.com/library/deepseek-coder-v2)
+* [qwen2.5-coder:32b](https://ollama.com/library/qwen2.5-coder:32b)
+* [nomic-embed-text:latest](https://ollama.com/library/nomic-embed-text:latest)
+* [mxbai-embed-large:latest](https://ollama.com/library/mxbai-embed-large:latest)
+* [qwen2.5-coder:latest](https://ollama.com/library/qwen2.5-coder:latest)
+* [llama3.1:latest](https://ollama.com/library/llama3.1:latest)
+* [qwen2.5-coder:14b](https://ollama.com/library/qwen2.5-coder:14b)
+* [qwen2.5-coder:3b](https://ollama.com/library/qwen2.5-coder:3b)
+* [qwen2.5-coder:1.5b](https://ollama.com/library/qwen2.5-coder:1.5b)
+* [qwen2.5-coder:0.5b](https://ollama.com/library/qwen2.5-coder:0.5b)
+* [llama3.2:latest](https://ollama.com/library/llama3.2:latest)
+* [llama3.2-vision:latest](https://ollama.com/library/llama3.2-vision:latest)
 
 ## Running docker container
 
