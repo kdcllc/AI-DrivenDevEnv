@@ -100,4 +100,9 @@ docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=
     
     
     pipx install gptme-rag
+
+    # run 
+    gptme -m azure/gpt-4o
+
+    OPENAI_BASE_URL="http://127.0.0.1:11434/v1" gptme 'hello' -m local/llama3.2:latest
 ```
