@@ -4,6 +4,17 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/kdcllc/AI-DrivenDevEnv/master/LICENSE) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+## Hire Me
+
+Please send [email](mailto:kingdavidconsulting@gmail.com) if you consider hiring me.
+
+[![buymeacoffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/vyve0og)
+
+## Give a Star! :star:
+
+If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+
+
 ## Description
 
 This repository contains scripts and documentation for setting up various development environments and tools, particularly on Linux systems. It includes automation scripts for installing dependencies, configuring environment variables, and running specific tools.
@@ -86,12 +97,3 @@ We welcome contributions from the community! Please read our [CONTRIBUTING.md](C
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Hire Me
-
-Please send [email](mailto:kingdavidconsulting@gmail.com) if you consider hiring me.
-
-[![buymeacoffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/vyve0og)
-
-## Give a Star! :star:
-
-If you like or are using this project to learn or start your solution, please give it a star. Thanks!
