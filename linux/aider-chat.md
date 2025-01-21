@@ -46,3 +46,5 @@ weak-model: ollama_chat/qwen2.5-coder:0.5b
 ## Specify the edit format for the editor model (default: depends on editor model)
 #editor-edit-format: whole
 ```
+
+[VsCode Aider](https://marketplace.visualstudio.com/items?itemName=MattFlower.aider)
